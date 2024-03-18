@@ -12,6 +12,7 @@ load_dotenv()
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
+
 app = Flask(__name__)
 # Set the values of your computer vision endpoint and computer vision key
 # as environment variables:
