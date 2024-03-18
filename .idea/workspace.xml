@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49d02afe-6344-41f7-b53e-5dd53d938765" name="Changes" comment="">
+    <list default="true" id="49d02afe-6344-41f7-b53e-5dd53d938765" name="Changes" comment="refactoring">
       <change afterPath="$PROJECT_DIR$/../ebdjango/.ebextensions/db-migrate.config" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ebdjango/.ebextensions/django.config" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ebdjango/employeedata/api.py" afterDir="false" />
@@ -85,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710537217087</updated>
-      <workItem from="1710537227307" duration="12106000" />
+      <workItem from="1710537227307" duration="12496000" />
     </task>
+    <task id="LOCAL-00001" summary="refactoring">
+      <created>1710723991889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710723991889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>

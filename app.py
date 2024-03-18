@@ -57,6 +57,7 @@ def tell_story_from_pictures():
         visual_features=["CAPTION", "READ"],
         gender_neutral_caption=True,
     )
+
     analysis_result = json.dumps({
         "caption_one": result_one.caption.text,
         "caption_confidence_one": result_one.caption.confidence,
