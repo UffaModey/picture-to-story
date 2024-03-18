@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.core.credentials import AzureKeyCredential
 from openai import OpenAI
+
 load_dotenv()
 
 client = OpenAI(
@@ -17,7 +18,6 @@ app = Flask(__name__)
 try:
     endpoint = os.getenv("VISION_ENDPOINT")
     key = os.getenv("VISION_KEY")
-    # Set your OpenAI API key here
 
 except KeyError:
     print("Missing environment variable 'VISION_ENDPOINT' or 'VISION_KEY'")
@@ -78,7 +78,6 @@ def tell_story_from_pictures():
                 {"role": "user", "content": prompt}
             ]
         )
-
 
     except Exception as e:
         print(f"Error calling OpenAI API: {e}")
